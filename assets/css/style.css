@@ -45,7 +45,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #008080;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -93,8 +93,8 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 175px;
   /*border: 8px solid #2c2f3f;*/
   /*border: 8px solid #014D4E;*/
   border: 8px solid #008080;
@@ -263,6 +263,7 @@ h6 {
   height: 100vh;
   /*background: url("../img/hero-bg.jpg") top center;*/
   background-size: cover;
+  background-color: white;
 }
 
 #hero:before {
@@ -274,12 +275,14 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  background: #f5f8fd;
 }
 
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  background: #f5f8fd;
 }
 
 #hero h1 {
@@ -289,6 +292,7 @@ h6 {
   line-height: 56px;
   /*color: #fff;*/
   color: #173b6c;
+  background: #f5f8fd;
 }
 
 #hero p {
@@ -297,6 +301,7 @@ h6 {
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  background: #f5f8fd;
 }
 
 #hero p span {
@@ -305,11 +310,30 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+  background: #f5f8fd;
+}
+
+#hero .social-links a {
+  font-size: 50px;
+  display: inline-block;
+  /*background: #212431;*/
+  /*background: #014D4E;*/
+  background: #008080;
+  color: #fff;
+  line-height: 1;
+  padding: 25px 0;
+  margin-right: 20px;
+  border-radius: 50%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  transition: 0.3s;
 }
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    background: #f5f8fd;
   }
 }
 
@@ -317,12 +341,14 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    background: #f5f8fd;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    background: #f5f8fd;
   }
 }
 
