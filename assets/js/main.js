@@ -27,11 +27,11 @@
   var span = document.getElementsByClassName("tagLine")[0];
   span.style.display = "none";
   document.addEventListener("scroll", function () {
-    if (document.body.scrollTop < 10) {
+    if (document.documentElement.scrollTop > 700) {
       span.style.display = "block";
     }
-    else {
-      span.style.display = "hidden";
+    else if (document.documentElement.scrollTop < 700) {
+      span.style.display = "none";
     }
   });
 
