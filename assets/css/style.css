@@ -99,10 +99,10 @@ h6 {
   /*border: 8px solid #2c2f3f;*/
   /*border: 8px solid #014D4E;*/
   /*border: 8px solid #008080;*/
-  border: 8px solid #009193;
+  /*border: 8px solid #009193;*/
   /*border: 8px solid #00AEAE;*/
-  /*border: 8px solid #b2d8d8;*/
-  /*border: 8px #29A0B1;*/
+  border: 2px solid #b2d8d8;
+  /*border: 8px solid #29A0B1;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 
 }
@@ -129,7 +129,9 @@ h6 {
   /*background: #212431;*/
   /*background: #014D4E;*/
   /*background: #008080;*/
-  color: #fff;
+  background: #b2d8d8;
+  /*color: #fff;*/
+  color: #008080;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
