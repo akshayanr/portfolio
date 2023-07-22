@@ -557,6 +557,16 @@ section {
   position: relative;
 }
 
+.resume .resume-appear {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  /*color: #1f5297;*/
+  color: #149ddd;
+  text-shadow: 0.5px 0.5px gray;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -645,6 +655,12 @@ section {
   margin-bottom: 10px;
 }
 
+.experience p {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 .experience .experience-item ul {
   padding-left: 20px;
 }
@@ -711,6 +727,12 @@ section {
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education .education-item p {
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -1051,7 +1073,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/*.portfolio-details {
   padding-top: 40px;
 }
 
@@ -1111,7 +1133,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Services
@@ -1268,10 +1290,7 @@ section {
 }
 
 .contact .info {
-  /*padding: 30px;*/
-  /*background: #fff;*/
-  /*width: 100%;*/
-  /*box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);*/
+  width: 100%;
 }
 
 .contact .info i {
